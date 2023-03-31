@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Kanit:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Gruppo&family=Kanit:wght@400;800&display=swap');
+
+html{
+    background-color:rgb(85, 224, 224)
+}
+nav{
+    margin-top:0;
+    background-color:pink;
+    height:50px;
+    margin-bottom:2em;
+}
+ul{
+    margin-top: 2px;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+    font-size:20px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    display:flex;
+    flex-flow:row;
+    list-style-type: none;
+    justify-content:space-around;
+}
+li{
+    border:1px;
+    padding:4px;
+    background-color:blanchedalmond ;
+}
+h1{
+    width:100%;
+    text-transform: uppercase;
+    text-align: center;
+    color:rgb(10, 50, 50);
+    font-size:50px;
+    background-color: pink;
+    margin-bottom: 0;
+    clear: both;
+}
+h2{
+    width:100%;
+    text-align:center;
+    text-transform: uppercase;
+    color:rgb(18, 70, 109);
+    background-color:aqua;
+    line-height: 0;
+    margin-bottom:0;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+    clear:both;
+}
+main{
+    background-color:white;
+    width:80%;
+    padding:2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:60px;
+}
+.image{
+    display: grid;
+    grid-template-columns:repeat(2,650px);
+    grid-row-gap:40px;
+    grid-column-gap:40px ;
+    margin-bottom: 60px;
+
+}
+.image_graphic{
+    display: grid;
+    grid-template-columns:repeat(4,300px);
+    grid-template-rows:repeat(7,300px) ;
+    grid-row-gap:60px;
+    grid-column-gap: 20px;
+    padding-bottom:4em;
+    margin-top:2em;
+    margin-bottom: 60px;
+
+}
+#image_block{
+    grid-column: 3 / span 2;
+    grid-row:1;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+footer{
+    height:30px;
+    width:100%;
+    padding-top: 10px;
+    padding-left:10px;
+    background-color: pink;
+}
+header{
+    background-color: blanchedalmond;
+    margin-bottom:0;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:8px;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+    font-size:20px;
+}
+#h1game{
+    font-family: 'Kanit', sans-serif;
+}
+#h2game{
+    margin-bottom: 5em;
+}
+#green{
+    color:green;
+}
+#grey{
+    color:grey;
+}
+em{
+    font-weight:bold;
+}
+strong{
+    font-weight:bold;
+    font-size:larger;
+    color:red;
+}
+p::first-letter{ 
+    font-size:20px;
+}
+#h1graphic{
+    font-family: 'Delicious Handrawn', cursive;
+}
+#me{
+    margin-top:2em;
+    margin-right:2em;
+    margin-bottom:2em;
+    float:left;
+}
+#title{
+    margin-top:0;
+    font-family: 'Gruppo', cursive;
+    font-size: 200px;
+    background-color: rgb(85, 224, 224);
+    color:white;
+    
+}
